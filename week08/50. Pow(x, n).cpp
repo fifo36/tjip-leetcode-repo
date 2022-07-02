@@ -3,11 +3,11 @@
 
 class Solution {
 public:
-    double bigMod(double x, long long power){
+    double calPower(double x, long long power){
         if(power == 0) return 1.0;
 
-        if(power&1) return x * bigMod(x, power-1);
-        double val = bigMod(x, power/2);
+        if(power&1) return x * calPower(x, power-1);
+        double val = calPower(x, power/2);
         return val*val;
     }
 
@@ -15,7 +15,7 @@ public:
         bool isInverse = n < 0;
         long long power = abs(n);
 
-        double res = bigMod(x, power);
+        double res = calPower(x, power);
 
         if(isInverse) res = 1/res;
         return res;
