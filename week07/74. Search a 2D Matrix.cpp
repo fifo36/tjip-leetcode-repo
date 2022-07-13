@@ -1,4 +1,4 @@
-//TC: O(row * colum)
+//TC: O(log(row*colum))
 //MC: O(1)
 
 class Solution {

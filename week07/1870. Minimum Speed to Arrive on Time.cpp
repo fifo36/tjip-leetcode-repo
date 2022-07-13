@@ -1,4 +1,4 @@
-//TC: O(logN), N := 10000000
+//TC: O(NlogN), N := 10000000
 //MC: O(1)
 
 class Solution {
