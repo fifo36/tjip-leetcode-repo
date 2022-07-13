@@ -1,4 +1,4 @@
-//TC: O(x)
+//TC: O(logx)
 //MC: O(1)
 
 class Solution {

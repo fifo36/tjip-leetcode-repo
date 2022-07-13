@@ -17,7 +17,7 @@ public:
         _numerator = (_numerator % _denominator);
 
         vector<pair<long long, long long>> dividendQuotient;
-        map<long long, int> rem;
+        unordered_map<long long, int> rem;
         int resStart, isRecurr = 0, isIntegerQuotient = 1;
 
         while(_numerator % _denominator){

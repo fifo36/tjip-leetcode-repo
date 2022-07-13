@@ -1,5 +1,5 @@
-//TC: O(n * (PI^2/6)) approximately
-//MC: O(n)
+//TC: O(N * lnlnN), approximately
+//MC: O(N)
 
 class Solution {
 public:
