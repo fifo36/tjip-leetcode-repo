@@ -1,5 +1,5 @@
 //TC: O(N)
-//MC: O(1)
+//MC: O(H), H -> max height of the tree
 
 class Solution {
 public:
