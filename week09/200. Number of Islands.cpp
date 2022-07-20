@@ -3,7 +3,7 @@
 
 class Solution {
 public:
-    vector<int> dr{0, -1, 0, 1, 0}; /// Left, Up, Right, Bottom direction
+    vector<int> dr{0, -1, 0, 1, 0};
 
     void dfs(int r, int c, vector<vector<char>>& grid){
         grid[r][c] = '0';
